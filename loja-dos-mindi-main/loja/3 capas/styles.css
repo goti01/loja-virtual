@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .logo h1 {
+    margin-left: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #ffa726;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.novidades, .depoimentos, .contato {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produto h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.produto p {
+    font-size: 1.1rem;
+    color: #ffa726;
+}
+
+.produto button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.depoimentos .depoimento {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.depoimentos h4 {
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contato label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contato input, .contato textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contato button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
